@@ -1,12 +1,12 @@
 # example-confippet-hapijs
-* TBD
+* This repo is an example hapi.js app with [electrode-confippet] module fully integrated
+* The step-by-step instructions on building it from scratch can be found below
 
-## Instructions
-* You can build the app from scratch by following the instructions below:
-  * [Hapijs Server](#hapijs-server)
-  * [Electrode Confippet](#electrode-confippet)
+## Electrode Confippet
+* [electrode-confippet] is a versatile utility for managing your NodeJS
+application configuration. Its goal is customization and extensibility, but offers a preset config out of the box.
 
-## <a name="hapijs-server"></a>Hapijs Server
+## Hapijs Server
 
 ### Install
 * Create a hapi app using the following commands:
@@ -72,9 +72,7 @@ server.start((error) => {
 });
 ```
 
-## <a name="electrode-confippet"></a>Electrode Confippet
-* [Confippet](https://github.com/electrode-io/electrode-confippet) is a versatile utility for managing your NodeJS
-application configuration. Its goal is customization and extensibility, but offers a preset config out of the box.
+## Electrode Confippet
 
 ### Install
 
@@ -160,3 +158,5 @@ NODE_ENV=production npm start
 ```
 
 * Running in the selected environment should load the appropriate configuration settings
+
+[electrode-confippet]: https://github.com/electrode-io/electrode-confippet
