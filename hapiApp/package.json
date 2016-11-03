@@ -1,0 +1,16 @@
+{
+  "name": "example-confippet-hapijs",
+  "version": "0.0.1",
+  "description": "example confippet + hapijs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ray de castro",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "electrode-confippet": "^1.5.0",
+    "hapi": "^15.2.0",
+    "inert": "^4.0.2"
+  }
+}
